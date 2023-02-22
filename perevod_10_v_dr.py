@@ -6,7 +6,7 @@ def perev10vdr(num,p): #а число p система в которую нуж�
     try:
         num=int(num)
         p=int(p)
-        if num== 0 and p>1:
+        if num == 0 and p > 1:
             return 0
     except ValueError:
         return 'можно вводить только числа которые можно перевести'

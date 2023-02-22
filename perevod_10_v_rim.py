@@ -7,6 +7,8 @@ def perev10vrim(num):
         num=int(num)
         if num==0:
             return 'N'
+        elif num>3999:
+            return 'максимальное рим число равно 3999'
     except ValueError:
         return 'можно вводить только числа'
 
